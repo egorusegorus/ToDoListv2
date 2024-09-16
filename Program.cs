@@ -117,7 +117,8 @@ namespace ToDoList
 
                             if (restZeit.HasValue && restZeit > 0)
                             {
-                                Console.WriteLine($"Rest Zeit: {restZeit.Value} Tage");
+                                Console.WriteLine($"Rest Zeit: {(int)restZeit.Value} Tage");
+
                             }
                             else if (restZeit.HasValue && restZeit <= 0)
                             {
